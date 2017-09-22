@@ -8,6 +8,7 @@
 * `docs`目录保存的为文本文档，包括课程大纲、导师手册、参考练习及参考案例等
 * `images`目录保存的为文本所用的图片文档
 * `charts`目录保存的为系统图编写的文档，推荐的编辑工作为 [VensimPLE](https://vensim.com/vensim-personal-learning-edition/ "PLE")
+* 为方便版本管理，所有文件、目录均以英文字母或阿拉伯数字命名，切忌用中文字符命名
 
 
 
