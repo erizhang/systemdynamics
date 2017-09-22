@@ -1,59 +1,10 @@
-# Introducing System Dynamics & CLD
+# 复杂回路与基模
 
 
-
-## CLD图的阅读
-
-分发卡片，各小组自行从绘制有CLD的卡片，进行阅读
-
-拿到一张图，知道这张图是什么
-
-
-
-
-
-## CLD图的绘制
-
-### 引入
-
-变量和链量是CLD的基础
-
-#### 变量
-
-* 定义问题
-* ​
-
-
-#### Case Study
-
-围绕特定主题的情境要素
-
-#### 工具
-
-清单
-
-
-
-### 链路
-
-
-
-
-
-
-
-
-## 回路
-
-S.T.A.R 情境描述
-
-
-
-## 多回路环节讲解
 
 总时长: 125'
 
-![Multiple Loop](../images/multiple_loop.png)
+![Multiple Loop](../../images/part5/multiple_loop.png)
 
 ### 1. 复杂回路的引入 (15')
 
@@ -61,7 +12,7 @@ S.T.A.R 情境描述
 
   * 问题：我们看看这个R回路，它会永远无止境的增长下去吗？
 
-    ![R Loop](../images/order_1.png)
+    ![R Loop](../../images/part5/order_1.png)
 
   * 事例：
 
@@ -69,7 +20,7 @@ S.T.A.R 情境描述
 
     > 以后几年中，一连串的市场营销副总裁轮流上岗，但是每次的结果都和以前一样，营销的高增长总是昙花一现，接下来就是低增长和零增长。
 
-    ![Multiple Loop](../images/order_2.png)
+    ![Multiple Loop](../../images/part5/order_2.png)
 
   * 迭代的概念
 
