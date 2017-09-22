@@ -4,7 +4,7 @@
 
 总时长: 125'
 
-![Multiple Loop](../../images/part5/multiple_loop.png)
+![Multiple Loop](../images/part5/multiple_loop.png)
 
 ### 1. 复杂回路的引入 (15')
 
@@ -12,7 +12,7 @@
 
   * 问题：我们看看这个R回路，它会永远无止境的增长下去吗？
 
-    ![R Loop](../../images/part5/order_1.png)
+    ![R Loop](../images/part5/order_1.png)
 
   * 事例：
 
@@ -20,7 +20,7 @@
 
     > 以后几年中，一连串的市场营销副总裁轮流上岗，但是每次的结果都和以前一样，营销的高增长总是昙花一现，接下来就是低增长和零增长。
 
-    ![Multiple Loop](../../images/part5/order_2.png)
+    ![Multiple Loop](./images/part5/order_2.png)
 
   * 迭代的概念
 
