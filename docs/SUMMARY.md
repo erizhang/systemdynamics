@@ -1,6 +1,7 @@
 
 # Summary
 
+* [写在前面](README.md)
 * [概述](part1/README.md)
 * [阅读CLD](part2/README.md)
 * [定义变量和链路](part3/README.md)
@@ -12,3 +13,4 @@
 * [参考案例](cases/README.md)
     * [神奇公司](cases/wonder_company.md)
 * [参考文献](reference.md)
+

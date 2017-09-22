@@ -1,3 +1,15 @@
 {
-	"root": "./docs"
+	"root": "./docs",
+	"title": "系统动力学导入手册",
+	"styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "pdf": {
+        "headerTemplate": "Header of the PDF with _TITLE_",
+        "footerTemplate": "Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_."
+    }
 }
