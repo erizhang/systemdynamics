@@ -1,12 +1,12 @@
+# install the plugins and build the static site
+gitbook install && gitbook build
+
 # checkout to the gh-pages branch
 if ! git checkout gh-pages
 then
     echo >&2 "Checkout to branch gh-pages failed!"
     exit 1
 fi
-
-# install the plugins and build the static site
-gitbook install && gitbook build
 
 # pull the latest updates
 git pull --rebase origin gh-pages
