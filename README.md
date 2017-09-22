@@ -1,4 +1,4 @@
-# 系统动态工作坊
+# 系统动力学导入
 
 ### 贡献指南
 
@@ -6,7 +6,7 @@
 
 * 所有文档均以markdown格式进行编辑，markdown的格式请参考：[Mastering Markdown](https://guides.github.com/features/mastering-markdown/ "Markdown")，您可以使用任何markdown编辑器进行编辑，例如[Typora](https://typora.io/ "typora")
 * `docs`目录保存的为文本文档，包括课程大纲、导师手册、参考练习及参考案例等
-* `images`目录保存的为文本所用的图片文档
+* `docs/gitbook/images`目录保存的为`docs`中文本文件所需要用到的图片文档
 * `charts`目录保存的为系统图编写的文档，推荐的编辑工作为 [VensimPLE](https://vensim.com/vensim-personal-learning-edition/ "PLE")
 * 为方便版本管理，所有文件、目录均以英文字母或阿拉伯数字命名，切忌用中文字符命名
 
@@ -16,20 +16,18 @@
 
 
 
-### 工作坊的组成
+### 如何使用本代码库
 
-本工作坊共由六个部分组成：
+此代码库生成的`gitbook`已经部署在该项目主页https://erizhang.github.io/systemdynamics。
 
-1. 概述
-2. 读CLD
-3. 定义变量和链路
-4. 发现回路
-5. [复杂回路及发现基模](docs/multiple_loop.md "复杂回路")
-6. 实际问题分析
+如需修改，你只需操作以下步骤：
 
-### 待解读知识点和难点
-### 参考文件
+1. 将此代码库`git clone`到本地，可以进行任意的修改；
+2. 完成文件的修改，可执行`git commit`完成修改文本的提交（如果您拥用此代码库的master权限，可以直接做修改push至远端代码库） ，或执行`git stash`进行缓存；
+3. 执行`./publish_gitbook.sh`命令，生成新的gitbook，并将新生成gitbook发布到项目主页。
 
-###License 
+
+
+### 版权及License
 
 本项目遵循xxx license //TBD

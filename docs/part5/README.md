@@ -4,7 +4,7 @@
 
 总时长: 125'
 
-![Multiple Loop](../images/part5/multiple_loop.png)
+![Multiple Loop](../gitbook/images/part5/multiple_loop.png)
 
 ### 1. 复杂回路的引入 (15')
 
