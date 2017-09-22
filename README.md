@@ -7,7 +7,11 @@
 * 所有文档均以markdown格式进行编辑，markdown的格式请参考：[Mastering Markdown](https://guides.github.com/features/mastering-markdown/ "Markdown")
 * `docs`目录保存的为文本文档
 * `images`目录保存的为文本所用的图片文档
-* `charts`目录保存的为系统图编写的文档，推荐的编辑工作为[VensimPLE](https://vensim.com/vensim-personal-learning-edition/ PLE)
+* `charts`目录保存的为系统图编写的文档，推荐的编辑工作为 [VensimPLE](https://vensim.com/vensim-personal-learning-edition/ "PLE")
+
+
+
+您的贡献不仅仅只局限于直接的文本、图片绘制等，您同样可以给我们提[Open Issue](https://github.com/erizhang/systemdynamics/issues "open issues")，帮助我们完善课程。
 
 
 
