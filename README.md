@@ -18,7 +18,7 @@
 
 ### 如何使用本代码库
 
-此代码库生成的`gitbook`已经部署在该项目主页https://erizhang.github.io/systemdynamics。
+此代码库生成的`gitbook`已经部署在该项目主页https://erizhang.github.io/systemdynamics
 
 如需修改，你只需操作以下步骤：
 
@@ -28,6 +28,6 @@
 
 
 
-### 版权及License
+### 版权及许可证（License）
 
-本项目遵循xxx license //TBD
+本项目为开源项目，遵循xxx协议 //TBD
