@@ -12,7 +12,7 @@
 
   * 问题：我们看看这个R回路，它会永远无止境的增长下去吗？
 
-    ![R Loop](../images/part5/order_1.png)
+    ![R Loop](/gitbook/images/part5/order_1.png)
 
   * 事例：
 
