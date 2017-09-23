@@ -11,7 +11,6 @@
         "github-buttons",
         "editlink",
         "prism",
-        "-highlight",
         "splitter",
         "sitemap"
     ],
@@ -22,7 +21,7 @@
             "className": "atoc"
         },
         "disqus": {
-          "shortName": "systemdynamics"
+          "shortName": "blog-zhangliaoyuan-com-systemdynamics"
         },
         "github": {
           "url": "https://github.com/erizhang/systemdynamics"
@@ -33,7 +32,9 @@
             "star",
             "watch"
           ],
-          "size": "large"
+          "size": "small",
+          "width": 90,
+          "height": 21
         },
         "editlink": {
           "base": "https://github.com/erizhang/systemdynamics/blob/master/docs",
