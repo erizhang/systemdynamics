@@ -1,4 +1,9 @@
-# 复杂回路与基模
+# 复杂系统回路与发现基模
+
+
+
+<!-- toc -->
+
 
 
 ![Multiple Loop](../gitbook/images/part5/multiple_loop.png)
