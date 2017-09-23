@@ -3,9 +3,12 @@
     "title": "系统动力学导入手册",
     "language": "zh",
     "plugins": [
+    	"expandable-chapters",
         "-search",
+        "atoc",
         "disqus",
         "github",
+        "github-buttons",
         "editlink",
         "prism",
         "-highlight",
@@ -13,11 +16,24 @@
         "sitemap"
     ],
     "pluginsConfig": {
+    	"expandable-chapters":{},
+    	"atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
         "disqus": {
           "shortName": "systemdynamics"
         },
         "github": {
           "url": "https://github.com/erizhang/systemdynamics"
+        },
+        "github-buttons": {
+          "repo": "erizhang/systemdynamics",
+          "types": [
+            "star",
+            "watch"
+          ],
+          "size": "large"
         },
         "editlink": {
           "base": "https://github.com/erizhang/systemdynamics/blob/master/docs",
