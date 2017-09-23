@@ -17,6 +17,14 @@
     
             
                 
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-atoc/atoc.css">
+                
+            
+                
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-disqus/plugin.css">
                 
             
@@ -51,6 +59,7 @@
         
     
     
+    
     <meta name="HandheldFriendly" content="true"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -62,6 +71,17 @@
     <link rel="next" href="part1/README.md" />
     
     
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"erizhang/systemdynamics","types":["star","watch"],"size":"large"};
+    </script>
 
     </head>
     <body>
@@ -361,7 +381,7 @@
 <p>&#x5728;&#x5267;&#x70C8;&#x5206;&#x7EC4;&#x8BA8;&#x8BBA;&#x548C;&#x601D;&#x7EF4;&#x78B0;&#x649E;&#x4E2D;&#xFF0C;&#x4E0D;&#x65AD;&#x7684;&#x8FED;&#x4EE3;&#x68B3;&#x7406;&#x548C;&#x4F18;&#x5316;&#x5DE5;&#x4F5C;&#x574A;&#x5F15;&#x5BFC;&#x624B;&#x518C;&#x5185;&#x5BB9;&#xFF0C;&#x672C;&#x624B;&#x518C;&#x5C31;&#x662F;&#x6765;&#x81EA;&#x8FD9;&#x4E9B;&#x670B;&#x53CB;&#x4EEC;&#xFF0C;&#x611F;&#x8C22;&#x4ED6;&#x4EEC;&#x7684;&#x79EF;&#x6781;&#x53C2;&#x4E0E;&#x548C;&#x65E0;&#x79C1;&#x5206;&#x4EAB;&#x3002;</p>
 <p>&#x611F;&#x8C22;&#xFF01;</p>
 <p><img src="gitbook/images/contributors.jpg" alt="&#x8D21;&#x732E;&#x8005;&#x4EEC;"></p>
-
+<script type="text/javascript">var className='atoc';</script>
                                 
                                 </section>
                             
@@ -384,7 +404,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"写在前面","level":"1.1","depth":1,"next":{"title":"第一部分","level":"1.2","depth":1,"path":"part1/README.md","ref":"part1/README.md","articles":[{"title":"1. 概述","level":"1.2.1","depth":2,"path":"part1/brief_introduction.md","ref":"part1/brief_introduction.md","articles":[]},{"title":"2. 阅读CLD","level":"1.2.2","depth":2,"path":"part1/cld_reading.md","ref":"part1/cld_reading.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-search","disqus","github","editlink","prism","-highlight","splitter","sitemap"],"root":"./docs","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"systemdynamics"},"github":{"url":"https://github.com/erizhang/systemdynamics"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/erizhang/systemdynamics/blob/master/docs"},"splitter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhangliaoyuan.com/"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":"Header of the PDF with _TITLE_","paperSize":"a4","margin":{"right":62,"left":62,"top":56,"bottom":56},"fontSize":12,"fontFamily":"Arial","footerTemplate":"Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_.","chapterMark":"pagebreak","pageNumbers":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"系统动力学导入手册","language":"zh","gitbook":"*"},"file":{"path":"README.md","mtime":"2017-09-23T07:17:26.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-23T07:18:32.564Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"写在前面","level":"1.1","depth":1,"next":{"title":"第一部分","level":"1.2","depth":1,"path":"part1/README.md","ref":"part1/README.md","articles":[{"title":"1. 概述","level":"1.2.1","depth":2,"path":"part1/brief_introduction.md","ref":"part1/brief_introduction.md","articles":[]},{"title":"2. 阅读CLD","level":"1.2.2","depth":2,"path":"part1/cld_reading.md","ref":"part1/cld_reading.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","-search","atoc","disqus","github","github-buttons","editlink","prism","-highlight","splitter","sitemap"],"root":"./docs","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"systemdynamics"},"github":{"url":"https://github.com/erizhang/systemdynamics"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/erizhang/systemdynamics/blob/master/docs"},"atoc":{"addClass":true,"className":"atoc"},"splitter":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"http://zhangliaoyuan.com/"},"github-buttons":{"repo":"erizhang/systemdynamics","types":["star","watch"],"size":"large"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","pdf":{"pageBreaksBefore":"/","headerTemplate":"Header of the PDF with _TITLE_","paperSize":"a4","margin":{"right":62,"left":62,"top":56,"bottom":56},"fontSize":12,"fontFamily":"Arial","footerTemplate":"Footer HTML template. Available variables: _PAGENUM_, _TITLE_, _AUTHOR_ and _SECTION_.","chapterMark":"pagebreak","pageNumbers":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"系统动力学导入手册","language":"zh","gitbook":"*"},"file":{"path":"README.md","mtime":"2017-09-23T07:18:43.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-09-23T11:41:40.307Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
@@ -392,6 +412,14 @@
         
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-atoc/atoc.js"></script>
+        
     
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
@@ -403,6 +431,10 @@
     
         
         <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
         
     
         
