@@ -1,0 +1,63 @@
+{UTF-8}
+收入  = A FUNCTION OF( 订单数量)
+	~	
+	~		|
+
+营销规模  = A FUNCTION OF( 收入)
+	~	
+	~		|
+
+订单数量  = A FUNCTION OF( 营销规模)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,营销规模,318,131,26,8,8,3,0,0,0,0,0,0
+10,2,订单数量,446,147,26,8,8,3,0,0,0,0,0,0
+10,3,收入,368,217,14,8,8,3,0,0,0,0,0,0
+1,4,1,2,1,0,83,0,2,64,0,-1--1--1,|0||-1--1--1,1|(377,93)|
+1,5,2,3,1,0,83,0,2,64,0,-1--1--1,|0||-1--1--1,1|(427,201)|
+1,6,3,1,1,0,83,0,2,64,0,-1--1--1,|0||-1--1--1,1|(328,191)|
+12,7,4,378,157,16,16,8,3,0,0,-1,0,0,0
+///---\\\
+:L<%^E!@
+9:Current
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:0,
+34:0,
+5:FINAL TIME
+24:0
+25:0
+26:0

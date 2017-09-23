@@ -7,13 +7,9 @@
         "-search",
         "atoc",
         "disqus",
-        "github",
         "github-buttons",
         "editlink",
-        "prism",
-        "-highlight",
-        "splitter",
-        "sitemap"
+        "image-captions"
     ],
     "pluginsConfig": {
     	"expandable-chapters-small":{},
@@ -23,9 +19,6 @@
         },
         "disqus": {
           "shortName": "blog-zhangliaoyuan-com-systemdynamics"
-        },
-        "github": {
-          "url": "https://github.com/erizhang/systemdynamics"
         },
         "github-buttons": {
           "repo": "erizhang/systemdynamics",
@@ -41,8 +34,9 @@
           "base": "https://github.com/erizhang/systemdynamics/blob/master/docs",
           "label": "编辑本页"
         },
-        "sitemap": {
-            "hostname": "http://zhangliaoyuan.com/"
+        "image-captions": {
+          "caption": "图 - _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_ - _CAPTION_",
+          "align": "center"
         }
     },
     "styles": {
