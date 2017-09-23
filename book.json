@@ -3,7 +3,7 @@
     "title": "系统动力学导入手册",
     "language": "zh",
     "plugins": [
-    	"expandable-chapters",
+    	"expandable-chapters-small",
         "-search",
         "atoc",
         "disqus",
@@ -11,11 +11,12 @@
         "github-buttons",
         "editlink",
         "prism",
+        "-highlight",
         "splitter",
         "sitemap"
     ],
     "pluginsConfig": {
-    	"expandable-chapters":{},
+    	"expandable-chapters-small":{},
     	"atoc": {
             "addClass": true,
             "className": "atoc"
