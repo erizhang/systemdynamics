@@ -1,7 +1,34 @@
 {
-	"root": "./docs",
-	"title": "系统动力学导入手册",
-	"styles": {
+    "root": "./docs",
+    "title": "系统动力学导入手册",
+    "language": "zh",
+    "plugins": [
+        "-search",
+        "disqus",
+        "github",
+        "editlink",
+        "prism",
+        "-highlight",
+        "baidu",
+        "splitter",
+        "sitemap"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+          "shortName": "systemdynamics"
+        },
+        "github": {
+          "url": "https://github.com/erizhang/systemdynamics"
+        },
+        "editlink": {
+          "base": "https://github.com/erizhang/systemdynamics/blob/master/docs",
+          "label": "编辑本页"
+        },
+        "sitemap": {
+            "hostname": "http://zhangliaoyuan.com/"
+        }
+    },
+    "styles": {
         "website": "styles/website.css",
         "ebook": "styles/ebook.css",
         "pdf": "styles/pdf.css",
