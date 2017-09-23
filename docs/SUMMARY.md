@@ -16,5 +16,3 @@
 * [参考案例](cases/README.md)
     * [神奇公司](cases/wonder_company.md)
 * [参考文献](reference.md)
-
-
