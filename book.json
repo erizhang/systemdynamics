@@ -4,7 +4,6 @@
     "language": "zh",
     "plugins": [
     	"expandable-chapters-small",
-        "-search",
         "atoc",
         "disqus",
         "github-buttons",
