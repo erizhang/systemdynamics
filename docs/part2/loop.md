@@ -87,4 +87,6 @@
   - 参考答案：增强反馈；关键变量：人口数量，死亡人口数量
 
 ### 延迟的现场互动案例
-
+![优秀产品的销售增强反馈](../gitbook/images/part2/R_loop_great_product.jpg)
+![员工加班争当英雄的平衡反馈](../gitbook/images/part2/B_loop_OT_to_be_hero.jpg)
+![维持现金流的平衡反馈](../gitbook/images/part2/B_loop_cash.jpg)
