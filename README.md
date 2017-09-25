@@ -27,10 +27,9 @@
 
 如需修改，您只需按以下步骤操作：
 
-1. 将此代码库`git clone`到本地，可以进行源代码的修改；
-2. 完成修改后，可执行`git commit`完成源代码修改的提交（如果您拥用此代码库的master权限，您可以直接将修改`push`至远端代码库），或执行`git stash`进行缓存；
-3. 若对源代码的修改有不确定之处，可提交`pull request`，交由本代码库的所有者审核；
-4. 执行`./publish_gitbook.sh`命令，可以生成新的gitbook，并同时自动将新生成gitbook发布到本项目主页。
+1. `fork`此代码库，并`git clone`到本地，可以进行源代码的修改；
+2. 参考[pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ "create pull request from fork")方式，完成修订，通过提交pull request，由本代码库的所有者审核merge到代码库；
+3. 执行`./publish_gitbook.sh`命令，可以生成新的gitbook，并同时自动将新生成gitbook发布到本项目主页。
 
 
 关于更多gitbook的使用，请移步参考[gitbook主页](https://toolchain.gitbook.com/setup.html "setup gitbook")
