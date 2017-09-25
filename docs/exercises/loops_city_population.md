@@ -15,7 +15,7 @@
 
 说明：当增强回路R1占主导地位的时候，城市人口持续增长（譬如一般城市的人口缓慢自然增长）；R1和B1组成增长上线的基模。
 
-![img](../../images/exercises/city_1.png)
+![img](../gitbook/images/exercises/city_1.png)
 
  
 
@@ -27,7 +27,7 @@
 
  
 
-![img](../../images/exercises/city_2.png)
+![img](../gitbook/images/exercises/city_2.png)
 
  
 
@@ -37,6 +37,6 @@
 
 说明：城市发展到一定程度，公共资源供给压力的增大（土地供应不足导致房价上涨、公共教育资源不足等），使得居民生活质量降低，对移民吸引力降低，移民数减少（逃离北上广…）
 
-![img](../../images/exercises/city_3.png)
+![img](../gitbook/images/exercises/city_3.png)
 
  
