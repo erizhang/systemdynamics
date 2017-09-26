@@ -13,6 +13,7 @@
     * [6. 实际问题分析](part3/study_of_actual_problems.md)
 * [参考练习](exercises/README.md)
     * [城市人口问题](exercises/loops_city_population.md)
+    * [女王的选择](exercises/the_queue_s_choice.md)
 * [参考案例](cases/README.md)
     * [神奇公司](cases/wonder_company.md)
     * [《狼图腾》节选](cases/wolf_totem.md)
