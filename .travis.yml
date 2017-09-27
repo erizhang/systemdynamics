@@ -9,8 +9,4 @@ script:
   - gitbook build
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash publish_gitbook.sh
-
-env:
-  global:
-    - secure: "Tyd20jmacx/c70LAaWNSw9SpUAVhLqiZDzj3MTXJasLqKqFTNj55NipEDpAL9blOeLVIbssVI17yEM/ZtM16Yn6oOMuyB2o/1xtDQmU/YkL4jIxcmQeT+VDKv8WVhXOmRjfWX3fV9CqU7mN2lXSHNHDa7V6r8TtFZjVxRJK+wGoFS3+Nzvs+JAF5aFDtO6ZIGhw0W8fSNldQx+73zye1W+l5hehsuOukq9nZGtkbZvKp5TzsdAzU2MYw6lFKVvNIG+H1cNkKYuRXgxn5cKNrA3A0zvZUuSxaBhR1TmnfxC1d6tUA39bjBUEs6FUKjaJ+X0P5wilfS9hkjkmtdFpdfeaR4t8Pm7bZIZB4EyVFv9i8ak7N93ifWcwTGKHNwluBnVs+ofZWj9zo4FdNRXKdNAtMMe/sZgsi4F/OOmTTxh0lxhd25e6+lTDOBNtdjio5wdlnNEnx6kAOpkS9fhXSqQOQ3JhSkcvky0uEeclzuv28oSJCvMg9kWeAIZz0etvjbT7T/GI6Hc/Kry0vNvEyLrwdfgJZIiRYh8QDCy+ghZS9AvnbTxNcJ5cTH308LEzQeWLrbeY0ThAd1zriStVDnZrxPT0Tg4xmcuoqBs4PSX0956Z3/McLGlGFIkbx/KGr6z81Ykx0Jq3d1V7U8vn/QeJaiNeRbZ1Rm2voWF77iKg="
   
