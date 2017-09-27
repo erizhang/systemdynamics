@@ -9,7 +9,6 @@ script:
   - gitbook build
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash publish_gitbook.sh
-  - bash publish_gitbook.sh
 
 env:
   global:
