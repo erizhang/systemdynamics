@@ -17,11 +17,13 @@ git config user.email "zhang.lyuan@gmail.com"
 
 git remote add upstream "https://$GITHUB_TOKEN@github.com/erizhang/systemdynamics.git"
 git fetch upstream
+echo "start to reset gh-pages"
 git reset upstream/gh-pages
 
+echo "push on the gh-pages"
 touch .
 
-git add -A .
+git add .
 git commit -m "rebuild pages at $(rev)"
 git push -q upstream HEAD:gh-pages
 
