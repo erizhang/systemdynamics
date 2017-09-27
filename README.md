@@ -1,5 +1,7 @@
 # 系统动力学导入
 
+![master status](https://travis-ci.org/erizhang/systemdynamics.svg?branch=master)
+
 此代码库用于《系统动力学导入》工作坊的讲议、导入手册、参考练习、案例及参考文献索引等内容材料的版本管理，本代码库由社区协作者在2017年9月21日和22日一起共同完成，并基于此基础不断迭代梳理完善及优化。在遵循[协议](#版权及许可证license "License")的前提下，您可以自由使用本代码库。
 
 ### 贡献指南
