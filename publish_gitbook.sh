@@ -23,7 +23,7 @@ git reset upstream/gh-pages
 echo "push on the gh-pages"
 touch .
 
-git add .
+git add -A .
 git commit -m "rebuild pages at $(rev)"
 git push -q upstream HEAD:gh-pages
 
