@@ -2,11 +2,10 @@ language: node_js
 node_js:
   - "4.1"
 install:
-  - npm install
   - npm install gitbook -g
   - npm install -g gitbook-cli
-  - gitbook install
 script:
+  - gitbook install
   - gitbook build
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash publish_gitbook.sh
