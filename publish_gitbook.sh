@@ -24,7 +24,13 @@ git reset upstream/gh-pages
 touch .
 
 git add -A .
+<<<<<<< HEAD
 git commit -m "rebuild pages at $rev"
+=======
+git commit -m "rebuild pages at $(rev)"
+
+echo "push the deployment start ...."
+>>>>>>> d3d81c4baf557fd5b55a7d0319e8967f1c6db4e8
 git push -q upstream HEAD:gh-pages
 echo "done!"
 
