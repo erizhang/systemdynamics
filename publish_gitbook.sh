@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# this script refers from https://github.com/steveklabnik/automatically_update_github_pages_with_travis_example
+
 set -o errexit -o nounset
 
 if [ "$TRAVIS_BRANCH" != "master" ]
@@ -17,14 +19,15 @@ git config user.email "zhang.lyuan@gmail.com"
 
 git remote add upstream "https://$GITHUB_TOKEN@github.com/erizhang/systemdynamics.git"
 git fetch upstream
-echo "start to reset gh-pages"
 git reset upstream/gh-pages
 
-echo "push on the gh-pages"
 touch .
 
 git add -A .
 git commit -m "rebuild pages at $(rev)"
+
+echo "push the deployment start ...."
 git push -q upstream HEAD:gh-pages
+echo "done!"
 
 ## - END -
