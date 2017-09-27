@@ -1,33 +1,26 @@
-# install the plugins and build the static site
-gitbook install && gitbook build
+#!/bin/bash
 
-# checkout to the gh-pages branch
-if ! git checkout gh-pages
+set -o errexit -o nounset
+
+if ["$TRAVIS_BRANCH" != "master"]
 then
-    echo >&2 "Checkout to branch gh-pages failed!"
-    exit 1
+	echo "This commit was made against the $TRAVIS_BRANCH and not the master! No deploy!"
+	exit 0
 fi
 
-# pull the latest updates
-git pull --rebase origin gh-pages
+rev=$(git rev-parse --short HEAD)
+cd _book
 
-# copy the static site files into the current directory.
-cp -R _book/* .
+git init
+git config user.name "Eric Zhang"
+git config user.email "zhang.lyuan@gmail.com"
 
-# remove 'node_modules' and '_book' directory
-git clean -fx node_modules
-git clean -fx _book
+git remote add upstream "https://$GITHUB_TOKEN@github.com/erizhang/systemdynamics.git"
+git fetch upstream
+git reset upstream/gh-pages
 
-# add all files
-git add .
-
-# commit
-git commit -a -m "Update docs"
-
-# push to the origin
-git push origin gh-pages
-
-# checkout to the master branch
-git checkout master
+git add -A .
+git commit -m "rebuild pages at $(rev)"
+git push -q upstream HEAD:gh-pages
 
 ## - END -
