@@ -31,7 +31,8 @@
 
 1. `fork`此代码库，并`git clone`到本地，可以进行源代码的修改；
 2. 参考[pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ "create pull request from fork")方式，完成修订，通过提交pull request，由本代码库的所有者审核merge到代码库；
-3. 执行`./publish_gitbook.sh`命令，可以生成新的gitbook，并同时自动将新生成gitbook发布到本项目主页。
+3. 在您的修改提交之后，请注意本页面上方build的状态，保证其处于passing状态。如处于failed状态，您有义务对其进行修订。
+4. 修改提交之后，Travis会自动将修改部署到本[项目主页](https://erizhang.github.io/systemdynamics "System Dynamics") ，您可以提交代码后，等待片刻，访问页面确定修改是否生效。
 
 
 关于更多gitbook的使用，请移步参考[gitbook主页](https://toolchain.gitbook.com/setup.html "setup gitbook")
